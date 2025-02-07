@@ -1,3 +1,65 @@
-.logo {
-    
+.logo img{
+    padding-top: 20px;
+    width: 300px;
+}
+
+.menu-horizontal {
+    display: flex;
+    list-style: none;
+    justify-content: left 10px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.menu-horizontal > li > a {
+    color: white;
+    text-decoration: solid;
+    padding: 15px 20px;
+    display: block;
+}
+
+.verde {
+    background-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.verde-1 {
+    background-color: green;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.amarillo {
+    background-color: rgb(206, 176, 9);
+    padding-left: 45px;
+    padding-right: 45px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+}
+
+.amarillo-1:hover {
+    color: red;
+}
+
+.azul-1:hover {
+    color: blue;
+}
+
+.rojo-1:hover {
+    color: yellow;
+}
+
+.rojo {
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
 }
